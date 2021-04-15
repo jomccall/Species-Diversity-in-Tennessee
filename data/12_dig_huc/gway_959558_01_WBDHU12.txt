@@ -1,0 +1,94 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: USDA/NRCS - National Cartography & Geospatial Center
+      Title: 12-Digit Watershed Boundary Data 1:24,000
+  Description:
+    Purpose: This dataset is intended to be used as a tool for water-resource management and planning activities, particularly for site-specific and localized studies requiring a level of detail provided by large-scale map information.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Single_Date/Time:
+        Calendar_Date: 1999 - Present
+  Status:
+    Progress: In Work
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -90.31029
+      East_Bounding_Coordinate: -81.6469
+      North_Bounding_Coordinate: 36.67811
+      South_Bounding_Coordinate: 34.98292
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: Standard for Geospatial Dataset File Naming
+      Theme_Keyword: Hydrologic Units, HUC, WBD
+    Place:
+      Place_Keyword_Thesaurus: GNIS
+      Place_Keyword: Tennessee
+      Place_Keyword: *
+  Use_Constraints:
+
+    The U.S. Department of Agriculture, Service Center Agencies should be acknowledged as the data source in products derived from these data.
+
+    This data set is not designed for use as a primary regulatory tool in permitting or citing decisions, but may be used as a reference source.  This information may be interpreted by organizations, agencies, units of government, or others based on needs; however, they are responsible for the appropriate application.  Federal, State, or local regulatory bodies are not to reassign to the Service Center Agencies any authority for the decisions that they make.  The Service Center Agencies will not perform any evaluations of these data for purposes related solely to State or local regulatory programs.
+
+    Photographic or digital enlargement of these data to scales greater than at which they were originally mapped can cause misinterpretation of the data.  Digital data files are periodically updated, and users are responsible for obtaining the latest version of the data.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: National Cartography and Geospatial Center
+      Contact_Address:
+        Address: 501 W. Felix St, Bldg 23
+        City: Fort Worth
+        State_or_Province: Texas
+        Postal_Code: 76115
+Data_Quality_Information:
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator:
+            NRCS State Offices
+          Publication_Date: 1999
+          Title: Watershed Boundary Data - Hydrologic Unit
+      Source_Scale_Denominator: 24,000
+    Process_Step:
+      Process_Description: The dataset was modified by the USDA-NRCS National Cartography & Geospatial Center (NCGC) by creating a seamless dataset for the entire country for all 6 levels. NCGC has included attributes for hydrologic unit codes, hydrologic unit name, downstream hydrologic unit, man-made modifications to overland flow that alter the location of the HU boundary, and HU type for each hydrologic unit level 1-6.  NCGC has also added a square miles field to sub-basin.  An acres field already exists for each subwatershed.  The square miles and acres field was calculated in Albers Equal Area, NAD83 by NCGC.  At this time, not all records have attributes for all the fields, but may be filled in by the user for local projects or will be filled in at a later date. NCGC personnel have created 2 shapefiles from the national WBD.  One shapefile has attributes for 10 and 12-digit with polygons for the 12-digit HUs.  An accompanying line file showing the same linework with the three attribute fields is delivered with the polygon shapefile.  For a complete description of the attributes and processes used to delineate hydrologic units to 1:24,000 scale accuracy, please refer to document Watershed Boundary Dataset (WBD) User Guide.
+      Process_Date: 200803
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Grid_Coordinate_System:
+        Grid_Coordinate_System_Name: State Plane Coordinate System 1983
+        State_Plane_Coordinate_System:
+          SPCS_Zone_Identifier: 32136 (Tennessee)
+          Lambert_Conformal_Conic:
+            Standard_Parallel: 35 15 00
+            Standard_Parallel: 36 25 00
+            Longitude_of_Central_Meridian: -86 00 00
+            Latitude_of_Projection_Origin: 34 20 00
+            False_Easting: 600000
+            False_Northing: 0
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983 (NAD83)
+      Ellipsoid_Name: GRS1980
+      Semi-major_Axis: 6378137.0
+      Denominator_of_Flattening_Ratio: 298.257222101
+Entity_and_Attribute_Information:
+  Overview_Description:
+    Entity_and_Attribute_Overview:
+      Hydrologic Unit delineation are closed polygons that encompass all area draining toward the lowest point (called outlet or pour point) in the polygon. Because of nominal sizes for the different hydrologic unit level: Watershed (40,000 to 250,000 acres) and Sub-watershed (3,000 minimum, generally 10,000 to 40,000 acres), some polygons do not include all areas up to the drainage divide, but all areas are included up to one or more other upstream hydrologic units. A unique hydrologic unit code is used to identify each hydrologic unit. The hydrologic unit codes start with the 8-digit Sub-basin number that contains the Watershed. Likewise the Sub-watershed hydrologic unit codes start with the 10-digit Watershed number that contains the Sub-watershed. Each hydrologic unit has a unique hydrologic code
+    Entity_and_Attribute_Detail_Citation: Detailed information about the attributes is available from the Watershed Boundary Dataset (WBD) User Guide (wbd_user_guide.doc) that is available with each gateway request.
+Distribution_Information:
+  Distribution_Liability:
+
+    Although these data have been processed successfully on a computer system at the U.S. Department of Agriculture, no warranty expressed or implied is made by the Service Center Agencies regarding the utility of the data on any other system, nor shall the act of distribution constitute any such warranty.  The U.S. Department of Agriculture will warrant the delivery of this product in computer readable format, and will offer appropriate adjustment of credit when the product is determined unreadable by correctly adjusted computer input peripherals, or when the physical medium is delivered in damaged condition.  Request for adjustment of credit must be made within 90 days from the date of this shipment from the ordering site.
+
+    Neither the U.S. Department of Agriculture, nor any of its agencies are liable for misuse of the data, for damage, for transmission of viruses, or for computer contamination through the distribution of these data sets.  The U.S. Department of Agriculture prohibits discrimination in all its programs and activities on the basis of race, color, national origin, sex, religion, age, disability, political beliefs, sexual orientation, or marital or family status. (Not all prohibited bases apply to all programs.)
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: ARC/INFO Shape
+Metadata_Reference_Information:
+  Metadata_Date: YYYY-05-DD
+  Metadata_Standard_Name: SCI Minimum Compliance Metadata
+  Metadata_Standard_Version: SCI Std 003-02
