@@ -9,6 +9,12 @@ __pycache__/
 # Data
 data/
 
+# Maps
+maps/
+
+# Presentation Files
+prez_files/
+
 # Distribution / packaging
 .Python
 build/
