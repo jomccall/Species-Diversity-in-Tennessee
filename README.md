@@ -24,6 +24,12 @@ The Tennessee Department of Environment and Conservation is one of the organizat
 This is part of the Natural Heritage Inventory program which maintains a GIS database containing information on the distribution and ecology of rare plants, animals, and ecological communities across Tennessee. This data is managed by TDEC but any citizen can contribute species sightings to this dataset. I used full lists of species at both county and watershed levels.
 
 ## The Analysis Process
+Using Python and Jupyter Notebooks, I began the data exploration. What kind of spread are we talking about when we look at biodiversity in this data? What categories does the data give us that we’re going to explore?
 
+Species have a type and category. This data also has three classification systems: global rank – which is the global or world-wide rank of a species (this is a non-legal rank indicating the rarity and vulnerability of a species)., next is the state rank – which is much like the global rank but indicates the rarity and vulnerability of a species at the state level, and finally the federal status – which is the federal listing under the US Endangered Species Act. Some species' categories indicate need for further determination, and I did not use these in my analysis.
+
+This information all came in string datatype format in a column for each: Type, Category, Global Rank, State Rank, and Federal Rank. At this point I decided to branch my analysis off in a couple ways so that I could clean the data efficiently.
+
+First, I left the data as it was regarding the category columns, and used the Matplotlib package to create simple bar graphs illustrating the breakout of the different data categories.
 
 ## The Findings
