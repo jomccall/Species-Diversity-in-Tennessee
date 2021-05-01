@@ -37,3 +37,16 @@ Second, I tested each row in each respective column to see if it did or did not 
 Additionally, I used the Boolean formatted data to create interactive maps with Folium, so that the viewer can zoom in and out, see relative geographical features such as cities (watersheds can be hard to relatively comprehend boundaries of since most of us are not used to thinking of the state this way), and to appreciate a tooltip displaying other information that may not be available via polygon boundaries or a choropleth layer.
 
 ## The Findings
+The findings have to be taken in the context of the dataset. While this is a huge amount of information collected over a handful of decades, it is by no means a census of all species. So the question evolves: what can we tell about biodiversity in the State from the Natural Heritage Inventory Database specifically? In the attached code and presentation, we look through a breakout of 115,612 species observations representing 928 unique species. The most observations are of vascular, flowering plants. The watershed with the most biodiversity is the Caney Fork River area, representing primarily DeKalb, White, and Van Buren counties. The State of Tennessee has:
+
+1,098 G1 species observations representing 131 unique species (the most rare species, globally)
+1,401 S1 species observations representing 465 unique species (the most rare species, statewide)
+339 federally endangered species observations representing 57 unique species (species deemed "endangered" under the US Endangered Animals Act)
+
+When we zoom in on the Caney Fork River – determined by these metrics to be the most biodiverse county as represented by this data, we see that there are:
+
+53 G1 species observations representing 29 unique species
+136 S1 observations representing 81 unique species
+And 44 federally endangered observations representing 13 unique species
+
+13 unique federally endangered species located only in the Caney Fork River watershed is quite astounding. Further research into the larger NatureServe database would beg the question of how the State of Tennessee compares to other places in the United States.
